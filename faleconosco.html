@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fale Conosco</title>
+
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/fale__conosco.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+        <div class="barra_superior">      
+            <div class="container">
+                Horário de funcionamento: das 9h00 às 18h</br>
+            </div>      
+        </div>
+        
+        <div class="container">
+                <img alt="logo da empresa" title="Aqui está a logo da empresa" src="assets/img/logo_site.svg" class="logo_loja"/>
+            <nav><!-- navegação, menu-->
+                <a href="index.html">Página Inicial</a> | <a href="index.html#marcas">Produtos e Marcas</a> | <a title="Página de Fale Conosco" href="faleconosco.html">Fale Conosco</a> <a class="btn_header" href="ondeestamos.html">Onde Estamos</a>
+            </nav>
+        </div>
+        
+    </header>
+
+    <section class="sec_forms">
+        <div class="container_conosco">
+            <div class="div_form_conosco">
+                <!--
+                    method:
+                    get: dados são passados pela url
+                    post: dados são passados pela requisição
+                -->
+                <form name = "form_contato" enctype="application/x-www-form-urlencoded" method="GET" class="section_form_conosco">
+                    <label for="NomeCompleto">Nome</label>
+                    <input id="NomeCompleto" type="text" name="Nome_Completo" placeholder="Digite seu nome completo"/> <br/>
+
+                    <label for="NomeCompleto">Email</label>
+                    <input id="Email" type="text" name="Email" placeholder="Digite seu email"/> <br/>
+
+                    <label for="Telefone">Telefone</label>
+                    <input id="Telefone" type="text" name="Telefone" placeholder="Digite seu telefone"/> <br/>
+
+                    <label>Mensagem</label>
+                    <textarea name="mensagem"></textarea>
+
+                    <input type="submit" value="Enviar"/>
+                </form>
+            </div>
+
+            <div class="contato_columms_conosco">
+                <div>
+                    <p><strong>Redes Sociais:</strong></p>
+                    <a href="#"><img alt="Link para o Facebook" src="assets/img/facebook.png"/></a>
+                    <a href="#"><img alt="Link para o Instagram" src="assets/img/instagram.png"/></a>
+                    <p><strong>Telefone:</strong> (00) 0000-0000</p>
+                </div>
+                <address>
+                    <p>Brasil,SP</p>
+                    <p>00000-000</p>
+                    <p>Avenida Brasil, 150</p>
+                    <p>Informações de contato</p>
+                </address>            
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+
+            <div class="footer_columms">
+                <img alt="logo da empresa" title="Aqui está a logo da empresa" src="assets/img/logo_site.svg" class="logo_footer"/>
+                <p>Nós oferecemos um serviço completo para o melhor conforto da sua visão.</p>                    
+                <a href="#"><img alt="Link para o Facebook" src="assets/img/facebook.png"/></a>
+                <a href="#"><img alt="Link para o Instagram" src="assets/img/instagram.png"/></a>                
+            </div>
+
+            <div class="footer_columms">
+
+                <div class="links">
+                    <h3>Links</h3>
+                    <a alt="página inicial" href="index.html">Início</a></br>
+                    <a alt="lista de marcas" href="index.html#marcas">Produtos e marcas</a></br>
+                    <a title="Página de Fale Conosco" href="faleconosco.html">Fale Conosco</a></br>
+                    <a href="ondeestamos.html">Onde Estamos</a>
+                </div>
+
+            </div>
+
+            <div class="footer_columms">
+
+                <div class="contato">
+                    <h3>Contato</h3>
+                    <p><strong>Endereço:</strong> Rua x, endereço y, Avenida z, cidade, UF, CEP</p>
+                    <p><strong>Telefone:</strong><a href="tel:0000000000"> (00) 0000-0000</a></p>
+                    <p><strong>E-mail:</strong><a href="mailto:otica@otica.com.br"> otica@otica.com.br</a></p>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="clearfix"></div>
+
+        <div class="copyright">
+            Todos os direitos reservados © 2022. <a href="termosdeuso.html">Termos de uso</a> e <a href="politicadeprivacidade.html">Política de privacidade</a>
+        </div>
+    </footer>
+
+</body>
+</html>
