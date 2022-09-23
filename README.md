@@ -1,6 +1,6 @@
 # Site Ótica - Introdução ao HTML/CSS/JavaScript
 
-![preview](./.github/preview.png)
+![preview](./.github/preview.PNG)
 
 Projeto construído durante o módulo de introdução ao HTML, CSS e JavaScript do Bootcamp elasNaTech(); 2022.
 
